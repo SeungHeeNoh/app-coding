@@ -8,29 +8,43 @@ Flex Box layout이란, Media Query를 사용하지 않고도  화면 크기에 �
 ## Contents
 
  1. Friends.html
+ 
  ![enter image description here](https://lh3.googleusercontent.com/Ox5aiWj6v0fu8PUwDTnSMAXjljbaH7VTwbQqDV59lyOIZyepr-GMedRFVDbTEGT0kRKE_VIdb1QC "friends.html")
+ 
 kakaoTalk "Friends" 탭을 구현하였습니다.
 
  2. profile.html
+ 
  ![enter image description here](https://lh3.googleusercontent.com/co-Bu0S_DXJkaEB29jAsmV_BtfQmh0lE1VSz43xw4gNGjxzvC5l4T0Dkxld-Iv0lFcC_DiKWeoty "profile.html")
+ 
 kakaoTalk "Profile" 탭을 구현하였습니다.
 
 3. Chats.html
+
 ![
 ](https://lh3.googleusercontent.com/KZ65NJ6i5CtmnHLUKpwdc0kQvH4W6_Ac-t6-0g_MW9u5HGcVeA74POvvDuvqM1XBXt1lEgwlugFz "chats.html")
+
 kakaoTalk "Chats" 탭을 구현하였습니다.
+
 4. chat.html
+
 ![
 ](https://lh3.googleusercontent.com/0kntNpMtnT73RagRsojrAdPox8Qexmjq5HFzFr-N0JgfRLWadRi3uEqVAF46X8HPEuGlb8tdPnrF "chat.html")
+
 kakaoTalk 채팅창을 구현하였습니다.
+
 5. Find.html
+
 ![
 ](https://lh3.googleusercontent.com/bVnVoPzSc_c0-J3casGLsqOz7xbvWO7RR0EVHvLfKe01E6aM9HaFOAghmfgqXEbjX86CegKO7Qpr "find.html")
+
 kakaoTalk "find" 탭을 구현하였습니다.
 
 6. More.html
+
 ![
 ](https://lh3.googleusercontent.com/jk42oKrtv-2mktCMuQEiUFSj-gj7sRnLMsL4LPlrFjkCpRX2TtqzHN_v7nU1vb55QtYYNgwpajOt "More.html")
+
 kakaoTalk "More" 탭을 구현하였습니다.
 
 ## Demo
