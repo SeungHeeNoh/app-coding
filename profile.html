@@ -1,53 +1,67 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<title>Document</title>
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
-<link rel ="stylesheet" type="text/css" href="css/profile.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>profile</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css" integrity="sha384-p2jx59pefphTFIpeqCcISO9MdVfIm4pNnsL08A6v5vaQc4owkQqxMV8kg4Yvhaw/" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/profile.css"/>
 </head>
 <body>
-<div id="wrap">
-	<ul class="stabar">
-		<li><i class="fas fa-fighter-jet"></i></li>
-		<li><i class="fas fa-wifi"></i></li>
-	</ul>
-	<span class="clock">17:33</span>
-	<ul class="stabar2">
-		<li><i class="far fa-moon"></i></li>
-		<li><i class="fab fa-bluetooth-b"></i></li>
-		<li>100%</li>
-		<li><i class="fas fa-battery-full"></i></li>
-	</ul>
-
-	<ul class="stabar3">
-		<li><a href="index_list.html"><i class="fas fa-times"></a></i></li>
-		<li><a href="#"><i class="fas fa-user"></a></i></li>
-	</ul>
-	<section>
-		<p class="userImg"><img/src="images/empty.jpg" alt="user1"/></p>
-		<p>My Name</p>
-		<div>
-		<form action="" method="post">
-			<fieldset>
-				<legend class="blind">user mail</legend>
-				<label for="userEmail" class="blind"> useremail</label>
-				<input type="text" id="userEmail" value="Userid@gmail.com"/>
-			<fieldset>
-		</form>
-		
-		<ul class="icon">
-		<li><i class="fas fa-comment"></i></li>
-		<li><i class="fas fa-pencil-alt"></i></li>
-		</ul>
-		
-		<ul class="txt">
-			<li>My Chatroom</li>
-			<li>Edit Profile</li>
-		</ul>
+    <header>
+		<div class="state">
+			<ul>
+				<li><i class="fas fa-plane"></i></li>
+				<li><i class="fas fa-wifi"></i></li>
+			</ul>
+			<p><time>17:33</time></p>
+			<ul>
+				<li><i class="far fa-moon"></i></li>
+				<li><i class="fab fa-bluetooth-b"></i></li>
+				<li>100%</li>
+				<li><i class="fas fa-battery-full"></i></li>
+			</ul>
 		</div>
-	</section>
-</div>
-
+		<div>
+			<p><a href="index.html"><i class="fas fa-times"></i></a></p>
+            <p><a href="#"><i class="fas fa-user"></i></a></p>
+		</div>
+	</header>
+	<div id="container">
+       <div id="contents">
+            <header>
+                <div>
+                    <p><img src="img/empty.jpg" alt="프로필 사진"/></p>
+                    <h3>My Name</h3>
+                </div>
+            </header>
+            <form action="/" method="post">
+                <fieldset>
+                    <legend class="blind">유저 이메일</legend>
+                    <label for="email" class="blind">유저 이메일</label>
+                    <input type="text" id="email" placeholder="UserId@gamil.com"/>
+                </fieldset>
+            </form>
+            <ul>
+                <li>
+                    <a href="#">
+                        <ul>
+                            <li><i class="fas fa-comment"></i></li>
+                            <li>My Chatroom</li>
+                        </ul>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ul>
+                            <li><i class="fas fa-pencil-alt"></i></li>
+                            <li>Edit Profile</li>
+                        </ul>
+                    </a>
+                </li>
+            </ul>
+        </div>
+	</div>
 </body>
 </html>

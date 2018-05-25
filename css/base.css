@@ -1,0 +1,34 @@
+@import url(reset.css);
+a{text-decoration:none; color:#4e3636}
+body{position:fixed; width:100%; height:100%; font-size:14px;}
+
+/*header*/
+header{z-index:30; position:fixed; top:0; left:0; width:100%; background:#513736;}
+header > .state{position:relative; display:flex; flex-direction:row; justify-content:space-between; padding:5px;} 
+header > .state *{color:#fff; font-size:12px;}
+header > .state ul{display:flex; flex-direction:row;}
+header > .state ul li{margin-right:2px;}
+header > .state ul li:last-of-type{margin-right:0;}
+header > .state p{position:absolute; left:50%; transform:translateX(-50%);}
+header > div:last-of-type{position:relative; display:flex; flex-direction:row; justify-content:space-between; height:42px; padding:0 15px; box-sizing:border-box;}
+header > div:last-of-type h2{display:inline-block; position:absolute; left:50%; transform:translateX(-50%); line-height:42px; color:#fff; font-size:18px;}
+header > div:last-of-type h2 span{color:#ffea45;}
+header > div:last-of-type p{align-self:center;}
+header > div:last-of-type p a{color:#fff; font-size:16px;}
+header > div:last-of-type p:first-of-type a{color:#ccc;}
+
+/*container*/
+#contents{height:100%; margin-top:70px; overflow:auto;}
+#container > #contents > form{height:53px; width:100%;  padding:0 25px; box-sizing:border-box; border-bottom:1px solid #ebebeb;}
+#container > #contents > form > fieldset > div{display:flex; flex-direction:row; align-items:center; height:100%; margin-top:10px; box-sizing:border-box;}
+#container > #contents > form > fieldset > div > label{flex:1; height:27px; background:#f2f2f2; text-align:center; line-height:27px; border-top-left-radius:5px; border-bottom-left-radius:5px; color:#ccc;}
+#container > #contents > form > fieldset > div > input{flex:9; height:27px; background:#f2f2f2; border-top-right-radius:5px; border-bottom-right-radius:5px; text-align:center; line-height:27px; border:none;}
+
+/*nav*/
+nav{position:fixed; bottom:0; left:0; width:100%; height:55px; border-top:1px solid #c1c1c1; box-sizing:border-box;}
+nav > ul{display:inline-flex; flex-direction:row; width:100%; height:100%; background:#f7f7f7; }
+nav > ul > li{flex:auto; align-self:center;}
+nav > ul > li > a{display:block;}
+nav > ul > li > a > ul{color:#c5c5c5; text-align:center;}
+nav > ul > li > a > ul > li:first-of-type{font-size:21px;}
+nav > ul > li > a > ul > li:last-of-type{font-size:12px; padding-top:2px;}

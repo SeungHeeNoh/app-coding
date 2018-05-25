@@ -1,35 +1,20 @@
-*{margin:0; padding:0;}
-img{border:none;}
-ul, ol{list-style:none;}
-a{display:block; text-decoration:none; color:#513736;}
-
-body{font-size:14px; font-family:"돋움", sans-serif;}
-
+@import url(base.css);
 
 /*header*/
-header{position:fixed; top:0; left:0; width:100%; padding:0 10px; background:#513736; box-sizing:border-box;}
-header > .state{position:relative; display:flex; flex-direction:row; justify-content:space-between; padding:5px;} 
-header > .state *{color:#fff;}
-header > .state ul{display:flex; flex-direction:row;}
-header > .state p{position:absolute; left:50%; transform:translateX(-50%);}
-
-header > div:last-of-type{position:relative; display:flex; height:42px; justify-content:flex-end;}
-header > div:last-of-type h2{display:inline-block; position:absolute; left:50%; transform:translateX(-50%); line-height:42px; color:#fff; font-size:18px;}
-header > div:last-of-type p{align-self:center; margin-right:10px;}
-header > div:last-of-type p a{color:#fff; font-size:20px;}
+header > div:last-of-type{justify-content:flex-end;}
 
 /*container*/
-#container{padding:75px 15px 11px; }
+#container{margin-bottom:55px; height:80%;}
+#contents{padding:0 15px;}
 /*content1*/
-.content1{display:flex; justify-content:space-between; margin-bottom:44px;}
-.content1 > dl{display:flex; flex-direction:row;}
-.content1 > dl > dt{width:50px; border-radius:50%; overflow:hidden; margin-right:20px;}
-.content1 > dl > dt > img{width:100%;}
-.content1 > dl > dd{align-self:center;}
-.content1 > dl > dd > ul > li:first-of-type{color:#110400; font-weight:bold;}
-.content1 > dl > dd > ul > li:last-of-type{color:#c4c5c9; font-size:12px; margin-top:5px;}
-.content1 > p{align-self:center;}
-.content1 > p  > a{font-size:28px;}
+.content1{display:flex; flex-direction:row; justify-content:space-between; margin-bottom:44px; padding-top:20px;}
+.content1 > p:first-of-type{width:40px; height:40px; border-radius:50%; overflow:hidden; margin-right:15px;}
+.content1 > p:first-of-type img{width:100%;}
+.content1 > ul{flex:8; align-self:center;}
+.content1 > ul > li:first-of-type{color:#110400; font-weight:bold;}
+.content1 > ul > li:last-of-type{color:#c4c5c9; font-size:12px; margin-top:5px;}
+.content1 > p:last-of-type{align-self:center; flex:1;}
+.content1 > p:last-of-type a{font-size:28px;}
 
 /*content2*/
 .content2{display:flex; flex-direction:row; margin-bottom:48px;}
@@ -49,18 +34,10 @@ header > div:last-of-type p a{color:#fff; font-size:20px;}
 .content3 > div:last-of-type > dl dt{font-size:13px; margin-right:20px;}
 
 /*content4*/
-.content4 ul{display:inline-flex; flex-direction:row; width:100%;}
+.content4 ul{display:inline-flex; flex-direction:row; width:100%; margin-bottom:20px;}
 .content4 ul li{width:80px; text-align:center; font-size:12px;}
 .content4 ul li a span{position:relative; left:50%; transform:translateX(-50%); display:block; text-align:center; width:44px; height:44px; margin-bottom:5px;}
 .content4 ul li a span img{width:100%;}
 
-
-/*footer*/
-footer > nav{position:fixed; bottom:0; left:0; width:100%; display:inline-flex; flex-direction:row; height:55px; background:#f7f7f7; border-top:1px solid #c1c1c1; box-sizing:border-box;}
-footer > nav > ul{flex:auto; align-self:center;}
-footer > nav > ul > a{display:block;}
-footer > nav > ul > a > li{color:#c5c5c5; text-align:center;}
-footer > nav > ul > a > li:first-of-type{font-size:21px;}
-footer > nav > ul > a > li:last-of-type{font-size:12px; padding-top:5px;}
-
-footer > nav > ul:last-of-type > a > li{color:#673035;}
+/*nav*/
+nav > ul > li:last-of-type > a > ul{color:#4e3636;}
